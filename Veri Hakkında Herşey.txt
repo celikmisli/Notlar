@@ -1,0 +1,104 @@
+Merhabalar. 
+Veriler ve Veri tabanları hakkında kendim için hazırladığım notları 
+sizlerle de paylaşmak istedim.Tamamen derleme ve alıntıdır.
+
+Veri NEDİR?
+Ham gerçek enformasyon (Bilgilendirme) parçacığına verilen addır. bir araştırmada, bir tartışmada, bir akıl yürütmede sonuca ulaşabilmek 
+için gereken ilk bilgi. Veriler ölçüm, sayım, deney, gözlem ya da araştırma yolu ile elde edilmektedir. Ölçüm ya da sayım yolu ile toplanan 
+ve sayısal bir değer bildiren veriler nicel veriler, sayısal bir değer bildirmeyen veriler de nitel veriler olarak adlandırılmaktadır.
+
+Veri Tabanı NEDİR?
+Veri tabanları yapılandırılmış bilgi veya verilerin depolandığı alanlardır. Bilgi artışıyla birlikte bilgisayarda bilgi depolama ve bilgiye 
+erişim konularında yeni yöntemlere ihtiyaç duyulmuştur.
+
+Veri Bilimi NEDİR?
+Veri bilimi, yapılandırılmış ve yapılandırılmamış verilerden bilgi ve öngörü elde etmek için bilimsel yöntemleri, süreçleri, algoritmaları 
+ve sistemleri kullanan çok disiplinli bir alandır. Veri bilimi veri madenciliği ve büyük verilerle ilişkilidir.
+
+Veri analizi NEDİR?
+Faydalı bilgiler bulma, sonuçları bilgilendirme ve karar vermeyi destekleme amacı ile verileri inceleme, temizleme, dönüştürme ve modelleme işlemidir.
+
+Veri Mimarı NEDİR? 
+Bir kuruluşun veri mimarisini tasarlama, oluşturma, dağıtma ve yönetme ile ilgili bir veri yönetimi 
+disiplini olan veri mimarisinin bir uygulayıcısıdır . Veri mimarları, verilerin farklı veri varlıkları ve BT sistemleri 
+tarafından nasıl depolanacağını, tüketileceğini, entegre edileceğini ve yönetileceğini ve ayrıca bu verileri bir şekilde 
+kullanan veya işleyen tüm uygulamaları tanımlar. İş mimarisiyle yakından ilişkilidir ve kurumsal mimarinin dört alanından 
+biri olarak kabul edilir .
+
+Veri Ambarı (Data Warehouse) NEDİR?
+Veri ambarı, aslında iş zekâsı sisteminin temelini oluşturur. Anlamlandırılmamış verilerin stratejik olarak kullanımını sağlamak, 
+anlamlı veri setleri elde edebilmek ve sonrasında öngörülerde bulunabilmek için farklı kaynaklardan ve çok çeşitli şekildeki verileri 
+toplama ve yönetme işlemlerini içerir. Data warehouse veya kısaca DWH olarak da karşınıza çıkabilecek veri ambarı, konuya özgü 
+verilerle çalışır. İhtiyaç olmayan veriler tutulmazlar, sadece özelleşmiş bilgiler analiz edilmek üzere saklanırlar. Veriler birbiri 
+ile bütünleşik ve tutarlıdır. Prensip gereği, veri ambarları zamanla değişimlere odaklı olduğundan eski veriden çokça yararlanılır ve 
+verilerin değişimi de veri ambarında tutulur. Bu noktada güncellenen verinin hem eski hem yeni hali DWH içerisinde yer alır, silinmezler. 
+Standart bir veri ambarı, ilişkisel veritabanına sahip olmalıdır. Bu sayede verilerin depolanması ve yönetilmesi gerçekleştirilir fakat 
+tek başına yeterli değildir. Seçime göre bir ELT veya ETL çözümü (veriyi çıkarma, yükleme ve dönüştürme) ile verinin analize hazır hale 
+getirilebilmesi gerekmektedir. Ek olarak veri ambarının raporlama ve veri madenciliği becerileri olmalıdır. Daha sonra bu veri görselleştirilerek 
+son kullanıcıların hizmetine sunulabilir, makine öğrenmesi ile de karar almaya yönelik bilgiler üreten bir sistem haline getirilebilir.
+
+İlişkisel Veritabanı Nedir?
+İlişkisel veritabanı, birbiriyle ilişkili veri noktalarını depolayan ve bunlara erişim sağlayan bir veritabanı türüdür. İlişkisel veritabanları, 
+verileri tablolarla temsil etmenin sezgisel, kolay anlaşılır bir yolu olan ilişkisel modeli temel alır. İlişkisel veritabanında, tablodaki her 
+satır, anahtar adı verilen benzersiz kimliğe sahip bir kayıttır. Tablonun sütunlarında verilerin öznitelikleri bulunur ve her kayıt genellikle her 
+öznitelik için bir değer taşır. Bu da veri noktaları arasında ilişki kurmayı kolaylaştırır.
+
+METADATA NEDİR?
+metaveri ya da üst veri, bir kaynağın ya da verinin öğelerini tanımlayan bilgilerdir. Kısaca veri hakkında veri/bilgi olarak özetlenebilir. 
+Pratikte kütüphanelerdeki kart kataloğu ya da bibliyografya ile benzerlik gösterirler. Kitapları birer veri kaynağı olarak düşünürsek kütüphane kartları 
+nasıl kitaplar hakkında bilgi veriyorsa üst veri de data (veri) hakkında bilgi verir.  Mesela Web sayfalarında HTML kodu içerisine eklenen meta etiketleri 
+(İngilizce: tag) ile o sayfa hakkında ek bilgiler verilir. Ya da dijital fotoğraf makineleri ile çekilen fotoğraflarda, fotoğraf dosyası içerisine kaydedilen 
+EXIF bilgileri (fotoğrafın çekildiği tarih, fotoğraf makinesinin markası, modeli ve ayarları, fotoğrafın çekildiği yerin GPS koordinatları vs.) birer üst veridır.
+
+1-Tanımlayıcı meta veriler, bir kaynak hakkında açıklayıcı bilgilerdir. Keşif ve tanımlama için kullanılır. Başlık, özet, yazar ve anahtar kelimeler gibi öğeleri içerir.
+
+2-Yapısal meta veriler, veri kapları hakkındaki meta verilerdir ve bileşik nesnelerin nasıl bir araya getirildiğini, örneğin sayfaların bölümleri oluşturmak için 
+
+nasıl sıralandığını gösterir. Dijital materyallerin türlerini, versiyonlarını, ilişkilerini ve diğer özelliklerini açıklar.
+
+3-Yönetimsel meta veriler, kaynak türü, izinler ve ne zaman ve nasıl oluşturulduğu gibi bir kaynağın yönetilmesine yardımcı olacak bilgilerdir.
+
+4-Referans meta verileri, istatistiksel verilerin içeriği ve kalitesi hakkında bilgidir.
+
+5-İşlem verileri olarak da adlandırılan istatistiksel Meta veriler, istatistiksel verileri toplayan, işleyen veya üreten süreçleri tanımlayabilir.
+
+6-Yasal meta veriler, oluşturucu, telif hakkı sahibi ve sağlanmışsa genel lisans hakkında bilgi sağlar.
+
+Veritabanı yönetim sistemi (DBMS) NEDİR?
+Veritabanları tipik olarak veritabanı yönetim sistemi (DBMS) olarak bilinen kapsamlı bir veritabanı yazılım programını gerektirir. DBMS, veritabanı 
+ve son kullanıcıları ya da programlar arasında bir arayüz işlevi görerek kullanıcıların bilgilerin nasıl organize ve optimize edildiğini yönetmesine, bilgileri almasına ve güncellemesine olanak sağlar. DBMS aynı zamanda veritabanlarına ilişkin gözetim ve kontrol faaliyetlerini kolaylaştırarak performans izleme, ince ayar ve yedekleme ve kurtarma gibi çeşitli yönetim operasyonlarının gerçekleştirilebilmesini sağlar.
+
+Veri tabanı migrasyonu NEDİR?
+Migrasyon sisteminizdeki veritabanınızı oluşturmaya yada güncellemeye yarayan yapı.
+Migrasyon kullanmak zorunda değilsiniz. Ancak projeniz büyüyecekse migrasyonla değişiklikleri güncellemek daha kolay olacaktır.
+
+2 seçenek vardır.
+a) veritabanından db'yi dışarı aktarıp kurulumda içeri aktarmak
+b) SQL sorgularını direkt php üzerinden çalıştırmak.
+
+migrasyonlar php gibi ıde'ler üzerinden bu sorguları çalıştırırlar. Larevel sadece "mysql" ile çalışmak zorunda değil, aynı şekilde sqllite ile kullanabilirsiniz
+mesela.  Bunu da ORM yapısına borçlu. schema veritabanının özelliklerini belirdediğiniz yapı. yani create table .... yerine schema ile oluşturuyorsunuz ki farklı 
+tablo oluşturma komutu kullanan diğer db sunucularda da kullanılabilsin. ORM (object relational mapping) , DBAL (Database Absteaction Layer) kavramlarını 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
